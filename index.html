@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores A e B</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!--Títulos para apresentar a funcionalidade do programa para o usuário-->
+    <h1>Validação de Números</h1>
+    <br></br>
+    <h2>Olá! Digite dois valores e o programa te dirá se o valor A é maior que o valor B:</h2>
+
+    <!-- Formulário com dois campos -->
+    <form id="formulario">
+        
+        <input type="number" id="campoA" name="campoA" required placeholder="Valor A">
+        <input type="number" id="campoB" name="campoB" required placeholder="Valor B">
+
+        <button type="submit">Enviar</button>
+    </form>
+    <!-- Área para exibir a mensagem de validação -->
+    <p id="mensagem"></p>
+    <script src="./main.js"></script>
+</body>
+</html>
