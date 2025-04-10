@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss","C:/Users/Pichau/Documents/Estudos/Projetos/Projetos%20Python/exercicio_gulp/source/styles/variavel.scss"],"names":[],"mappings":"AAEA,KACI,iBCHW","sourcesContent":["@use 'variavel' as *;\r\n\r\nbody{\r\n    background-color: $corPrincipal;\r\n}","$corPrincipal: blue;"],"file":"../main.css"}
